@@ -12,4 +12,4 @@ Driven by a curiosity about how research can be applied in the industry, I am ac
 
 
 # CV
-(updated Jan 2026)
+[Shenglan CHEN - CV](assets/PDFs/CV_Shenglan_Chen.pdf) (updated Jan 2026)
