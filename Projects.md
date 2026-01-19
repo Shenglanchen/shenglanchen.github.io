@@ -13,17 +13,21 @@ This study employs fNIRS too. It examines neural patterns before, during, and af
 
 Below are some of the research project reports I have made during my Master's year (2024-2026).
 
-Project 1 : AI-Generated vs. Human-Written Text Detection<p>
+Project 1 : AI-Generated vs. Human-Written Text Detection
+
 [Report of Programming Project](assets/PDFs/IdentificationdestexteshumainsetgeneresparlIA.pdf) 
 
 
-Project 2 : UX Analysis and Redesign of the French Residence Permit (Titre de Séjour) Application Process<p>
+Project 2 : UX Analysis and Redesign of the French Residence Permit (Titre de Séjour) Application Process
+
 [Report of UX research Project](assets/PDFs/DossierUX.pdf)
 
 
-Project 3 : Literature Review of Motor Learning in the Age of AI<p>
+Project 3 : Literature Review of Motor Learning in the Age of AI
+
 [Report of literature Review](assets/PDFs/MotorLearningintheAgeofAI.pdf)
 
 
-Project 4 : Research of neuroeconimic by using eye-tracker: anxiety and food decision (at the [Institut des Sciences Cognitives](https://www.isc.cnrs.fr/))<p>
+Project 4 : Research of neuroeconimic by using eye-tracker: anxiety and food decision (at the [Institut des Sciences Cognitives](https://www.isc.cnrs.fr/))
+
 [Research Paper of M1](assets/PDFs/MemoirederechercheM1.pdf)
