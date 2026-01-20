@@ -134,19 +134,19 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"            # 纯白（对应图中明亮的背景，保持呼吸感）
-text-col: "#404040"            # 极深墨色（对应图中建筑的黑色线条框架）
-link-col: "#2A9D8F"            # 
-hover-col: "#F4A261"           # 橙黄色（取自图中圆形的落日/灯火，柔和的交互）
+page-col: "#FBEAFF"            # 极浅淡紫（取自序列第一个颜色，作为页面底色非常柔和）
+text-col: "#4A4A4A"            # 深烟灰（为了保证阅读清晰度，文字需要足够的深色）
+link-col: "#FFD9B4"            # 暖杏橘（序列中间色，温暖而不刺眼）
+hover-col: "#F9F871"           # 柠檬黄（序列最后一个颜色，作为悬停反馈非常亮眼）
 
-navbar-col: "#348490"          # 深波罗的海蓝（取自图中深蓝色的波浪形建筑，稳重且专业）
-navbar-text-col: "#F1FAEE"     # 极浅薄荷白（极高对比度，确保易读性）
-navbar-border-col: "#E63946"   # 
+navbar-col: "#FFE1F9"          # 樱粉色（序列第二个颜色，让顶部导航栏有甜美感）
+navbar-text-col: "#5D5D5D"     # 中灰色文字
+navbar-border-col: "#FFD9DE"   # 蜜桃粉（序列第三个颜色，作为细腻的分割线）
 
-footer-col: "#1D3557"          # 延续导航栏的深蓝色，形成视觉闭环
-footer-text-col: "#A8DADC"     # 灰蓝色文字
-footer-link-col: "#A8DADC"     # 橙色链接（在蓝底下非常醒目且具有艺术感）
-footer-hover-col: "#E63946"    # 悬停时跳回红色
+footer-col: "#FFE589"          # 浅金黄（序列倒数第二个颜色，增加页面底部的重量感）
+footer-text-col: "#7D7D7D"     # 灰色文字
+footer-link-col: "#7D7D7D"     # 灰色文字
+footer-hover-col: "#FFE1F9"    # 悬停时跳回樱粉色
 
 #page-col: "#FFFFFF"
 #text-col: "#404040"
