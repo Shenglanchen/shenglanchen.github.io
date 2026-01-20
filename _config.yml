@@ -134,17 +134,19 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"         # 纯白
-text-col: "#1A1A1A"         # 纯黑
-link-col: "#FF3B30"         # 警示红（极强的行动导向感）
-hover-col: "#007AFF"        # 电光蓝（冷暖撞色产生冲击）
-navbar-col: "#000000"       # 黑色导航栏（沉稳且有力）
-navbar-text-col: "#FFFFFF"
-navbar-border-col: "#FF3B30"
-footer-col: "#F2F2F2"
-footer-text-col: "#888888"   # 中灰色文字
-footer-link-col: "#FFFFFF"   # 白色链接，在黑底上极度清晰
-footer-hover-col: "#FF3B30"  # 悬停时变为警示红，呼应主题
+page-col: "#FFFFFF"            # 纯白（对应图中明亮的背景，保持呼吸感）
+text-col: "#121212"            # 极深墨色（对应图中建筑的黑色线条框架）
+link-col: "#E63946"            # 亮珊瑚红（取自图中红色的建筑立面，极具动感）
+hover-col: "#F4A261"           # 橙黄色（取自图中圆形的落日/灯火，柔和的交互）
+
+navbar-col: "#1D3557"          # 深波罗的海蓝（取自图中深蓝色的波浪形建筑，稳重且专业）
+navbar-text-col: "#F1FAEE"     # 极浅薄荷白（极高对比度，确保易读性）
+navbar-border-col: "#2A9D8F"   # 丛林绿（取自图中绿色的植被/建筑元素，这是画龙点睛之笔）
+
+footer-col: "#1D3557"          # 延续导航栏的深蓝色，形成视觉闭环
+footer-text-col: "#A8DADC"     # 灰蓝色文字
+footer-link-col: "#F4A261"     # 橙色链接（在蓝底下非常醒目且具有艺术感）
+footer-hover-col: "#E63946"    # 悬停时跳回红色
 
 #page-col: "#FFFFFF"
 #text-col: "#404040"
