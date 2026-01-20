@@ -134,14 +134,13 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"         # 纯白背景
-text-col: "#34495E"         # 普鲁士蓝灰
-link-col: "#5DADE2"         # 雅致天蓝
-hover-col: "#21618C"        # 深海蓝
-navbar-col: "#F2F4F4"       # 极浅灰蓝
-navbar-text-col: "#1A5276"  # 导航栏文字用深蓝
-footer-col: "#2E4053"       # 深色页脚（增加沉稳感）
-footer-text-col: "#D5DBDB"
+page-col: "#FCF8F3"         # 羊皮纸色（非常护眼且有质感）
+text-col: "#3D3D3D"         # 深暖灰
+link-col: "#A67B5B"         # 琥珀色/复古铜（很有艺术感的点缀色）
+hover-col: "#7E5109"        # 深棕色
+navbar-col: "#F7F1E3"       # 略深的纸张色
+navbar-text-col: "#3D3D3D"
+navbar-border-col: "#E0D7C6"
 
 #page-col: "#FFFFFF"
 #text-col: "#404040"
@@ -149,9 +148,9 @@ footer-text-col: "#D5DBDB"
 #hover-col: "#0085A1"
 #navbar-col: "#EAEAEA"
 #navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-#footer-col: "#EAEAEA"
-#footer-text-col: "#777777"
+#navbar-border-col: "#DDDDDD"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
 
