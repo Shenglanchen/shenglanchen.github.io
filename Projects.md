@@ -36,4 +36,4 @@ A Critical Analysis of the Sapir-Whorf Hypothesis: Language and Perception  :  [
 
 ### Ergonomic Report
 Multidimensional Ergonomic Analysis: Assessing Physical and Cognitive Workload at IKEA  :  [Report of ergonomic IKEA](assets/PDFs/RapportdanalyseergonomiquesurletravaildunevendeuseàIKEA.pdf)<br>
-Mental Workload in N-back Tasks: A Psychophysiological Study using HRV  :  [Report of Psychophysiological study](assets/PDFs/Analysephysiologiques.pdf)
+Mental Workload in N-back Tasks: A Psychophysiological Study using Heart rate variability (HRV)  :  [Report of Psychophysiological study](assets/PDFs/Analysephysiologiques.pdf)
