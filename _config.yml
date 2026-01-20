@@ -134,17 +134,17 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#0A0A0A"         # 极夜黑（强烈的沉浸感）
-text-col: "#E0E0E0"         # 冰白色（高亮对比，易于阅读）
-link-col: "#00FFC8"         # 荧光薄荷绿（极强的视觉抓手，过目不忘）
-hover-col: "#FFFFFF"        # 纯白闪烁
-navbar-col: "#121212"       # 深炭黑
-navbar-text-col: "#00FFC8"
-navbar-border-col: "#222222"
-footer-col: "#0A0A0A"
-footer-text-col: "#666666"   # 暗灰色，不打扰视觉
-footer-link-col: "#00CCAA"   # 稍暗的荧光青（保持色相一致）
-footer-hover-col: "#00FFC8"  # 悬停时恢复高亮荧光
+page-col: "#F8F9FA"         # 极浅工业灰
+text-col: "#2D2D2D"         # 深烟灰
+link-col: "#002FA7"         # 克莱因蓝（绝对的记忆点，非常高级）
+hover-col: "#E3FF00"        # 荧光黄（极其大胆的交互反馈）
+navbar-col: "#002FA7"       # 蓝色导航栏
+navbar-text-col: "#FFFFFF"
+navbar-border-col: "#001F70"
+footer-col: "#002FA7"        # 克莱因蓝底色（记忆点延续到最后）
+footer-text-col: "#B5C1E0"   # 淡化的蓝灰色文字
+footer-link-col: "#E3FF00"   # 柠檬金链接（对比度极高，极具视觉冲击）
+footer-hover-col: "#FFFFFF"  # 悬停时变为纯白
 
 #page-col: "#FFFFFF"
 #text-col: "#404040"
