@@ -134,17 +134,17 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#F4F4F2"         # 浅灰沙色（中性冷调）
-text-col: "#4A4E54"         # 蓝灰色文字（非常现代的科研质感）
-link-col: "#8F9DA3"         # 莫兰迪雾霾蓝（点睛之笔）
-hover-col: "#607D8B"        # 蓝灰石色
-navbar-col: "#E8E8E6"       # 浅岩灰
-navbar-text-col: "#4A4E54"
-navbar-border-col: "#D1D1CF"
-footer-col: "#E1E1DE"       # 页脚与整体呼应
-footer-text-col: "#7A7A7A"
-footer-link-col: "#4A4E54"
-footer-hover-col: "#607D8B"
+page-col: "#0A0A0A"         # 极夜黑（强烈的沉浸感）
+text-col: "#E0E0E0"         # 冰白色（高亮对比，易于阅读）
+link-col: "#00FFC8"         # 荧光薄荷绿（极强的视觉抓手，过目不忘）
+hover-col: "#FFFFFF"        # 纯白闪烁
+navbar-col: "#121212"       # 深炭黑
+navbar-text-col: "#00FFC8"
+navbar-border-col: "#222222"
+footer-col: "#0A0A0A"
+footer-text-col: "#666666"   # 暗灰色，不打扰视觉
+footer-link-col: "#00CCAA"   # 稍暗的荧光青（保持色相一致）
+footer-hover-col: "#00FFC8"  # 悬停时恢复高亮荧光
 
 #page-col: "#FFFFFF"
 #text-col: "#404040"
