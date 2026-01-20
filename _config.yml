@@ -134,17 +134,17 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#F8F9FA"         # 极浅工业灰
-text-col: "#2D2D2D"         # 深烟灰
-link-col: "#002FA7"         # 克莱因蓝（绝对的记忆点，非常高级）
-hover-col: "#E3FF00"        # 荧光黄（极其大胆的交互反馈）
-navbar-col: "#002FA7"       # 蓝色导航栏
+page-col: "#FFFFFF"         # 纯白
+text-col: "#1A1A1A"         # 纯黑
+link-col: "#FF3B30"         # 警示红（极强的行动导向感）
+hover-col: "#007AFF"        # 电光蓝（冷暖撞色产生冲击）
+navbar-col: "#000000"       # 黑色导航栏（沉稳且有力）
 navbar-text-col: "#FFFFFF"
-navbar-border-col: "#001F70"
-footer-col: "#002FA7"        # 克莱因蓝底色（记忆点延续到最后）
-footer-text-col: "#B5C1E0"   # 淡化的蓝灰色文字
-footer-link-col: "#E3FF00"   # 柠檬金链接（对比度极高，极具视觉冲击）
-footer-hover-col: "#FFFFFF"  # 悬停时变为纯白
+navbar-border-col: "#FF3B30"
+footer-col: "#F2F2F2"
+footer-text-col: "#888888"   # 中灰色文字
+footer-link-col: "#FFFFFF"   # 白色链接，在黑底上极度清晰
+footer-hover-col: "#FF3B30"  # 悬停时变为警示红，呼应主题
 
 #page-col: "#FFFFFF"
 #text-col: "#404040"
