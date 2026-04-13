@@ -23,6 +23,9 @@ Research of [Neuroeconomics](https://en.wikipedia.org/wiki/Neuroeconomics) by us
 
 ## Assignments
 
+### Robotic
+Autonomous Maze Navigation: Comparative Analysis of Reactive and Deliberative Robotics Architectures :  [Report of Robotic]
+
 ### Human-Computer Interaction 
 UX Analysis and Redesign of the French Residence Permit (Titre de Séjour) Application Process   :  [Report of UX research Project](assets/PDFs/DossierUX.pdf)<br>
 Design of a Cognitive Rehabilitation Interface  :   [Report of UX designer Project](assets/PDFs/IHMAPPrehabilitationcognitive.pdf)
