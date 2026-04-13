@@ -24,7 +24,7 @@ Research of [Neuroeconomics](https://en.wikipedia.org/wiki/Neuroeconomics) by us
 ## Assignments
 
 ### Robotic
-Autonomous Maze Navigation: Comparative Analysis of Reactive and Deliberative Robotics Architectures :  [Report of Robotic]
+Autonomous Maze Navigation: Comparative Analysis of Reactive and Deliberative Robotics Architectures :  [Report of Robotic](assets/PDFs/Rapport_IHM_Robotique.pdf)
 
 ### Human-Computer Interaction 
 UX Analysis and Redesign of the French Residence Permit (Titre de Séjour) Application Process   :  [Report of UX research Project](assets/PDFs/DossierUX.pdf)<br>
@@ -34,7 +34,7 @@ Design of a Cognitive Rehabilitation Interface  :   [Report of UX designer Proje
 AI-Generated vs. Human-Written Text Detection  :  [Report of Programming Project](assets/PDFs/IdentificationdestexteshumainsetgeneresparlIA.pdf) 
 
 ### Literature Review
-Literature Review of Motor Learning in the Age of AI  :  [Report of literature Review](assets/PDFs/MotorLearningintheAgeofAI.pdf)<br>
+Literature Review of Motor Learning in the Age of AI  :  [Report of literature Review](assets/PDFs/MotorLearningintheAgeofAI.pdf) <br>
 A Critical Analysis of the Sapir-Whorf Hypothesis: Language and Perception  :  [Report of Critical Analysis](assets/PDFs/LinguistiqueReSUMeCRITIQUE.pdf)
 
 ### Ergonomic Report
