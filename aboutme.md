@@ -19,7 +19,7 @@ More broadly, I am interested in how people interact with and learn from machine
 ❗️ Human-centered solution 
 
 # CV
-[CV - Shenglan CHEN (French)](assets/PDFs/CV_Shenglan_Chen.pdf) (updated Oct 2026)
+[CV - Shenglan CHEN (French)](assets/PDFs/CHEN_Shenglan_CV_CIFRE_ Oct_2026.pdf) (updated Oct 2026)
 
 # Cover Letter
 [Cover Letter - Shenglan CHEN (French)](assets/PDFs/Lettre de motivation_Shenglan.pdf) 
