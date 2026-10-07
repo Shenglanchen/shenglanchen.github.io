@@ -10,7 +10,7 @@ As part of my Master's degree, I completed two theses at the EMC Lab (University
 ➡️ [Thesis 1 : Inferring the intentions of humans and automated vehicles](assets/PDFs/MémoireR.pdf)<br>
 This study compared how the brain infers the intentions of a human agent versus an automated vehicle. It tested whether the neural mechanisms of social cognition differ when the other agent is a machine.
 
-➡️ [Thesis 2: Taking back control at different levels of automation](assets/PDFs/MémoirP.pdf)<br>
+➡️ [Thesis 2: Taking back control at different levels of automation](assets/PDFs/MmoireP.pdf)<br>
 This study examined drivers' brain activity before, during, and after a takeover, the moment when the driver resumes manual control from the automated system. It compared these patterns across different levels of automation.
 
 
