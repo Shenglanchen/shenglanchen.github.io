@@ -5,13 +5,13 @@ subtitle:
 ---
 
 # Master's thesis
-I'm working on 2 master thesis which studied the Human-Autonomous Car Interaction at the EMC Lab (Lyon 2). Full thesis details and results will be uploaded here shortly. Stay tuned!
+As part of my Master's degree, I completed two theses at the EMC Lab (University of Lyon 2) on how people interact with automated vehicles. Both studies used functional near-infrared spectroscopy (fNIRS) to measure brain activity.
 
-➡️ Thesis 1 : 
-This study employs functional Near-Infrared Spectroscopy (fNIRS) to investigate how the human brain processes and infers intentions. By comparing interactions with human agents versus artificial agents (specifically automated vehicles), the research explores whether the neural mechanisms of social cognition differ when the "other" is a machine.
+➡️ [Thesis 1 : Inferring the intentions of humans and automated vehicles]
+This study compared how the brain infers the intentions of a human agent versus an automated vehicle. It tested whether the neural mechanisms of social cognition differ when the other agent is a machine.
 
-➡️ Thesis 2: 
-This study employs fNIRS too. It examines neural patterns before, during, and after the resumption of manual control of car, investigating how different levels of automation influence cognitive and neural activation.
+➡️ [Thesis 2: Taking back control at different levels of automation]()
+This study examined drivers' brain activity before, during, and after a takeover, the moment when the driver resumes manual control from the automated system. It compared these patterns across different levels of automation.
 
 
 # Others master projects 
