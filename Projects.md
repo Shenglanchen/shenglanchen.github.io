@@ -38,5 +38,5 @@ Literature Review of Motor Learning in the Age of AI  :  [Report of literature R
 A Critical Analysis of the Sapir-Whorf Hypothesis: Language and Perception  :  [Report of Critical Analysis](assets/PDFs/LinguistiqueReSUMeCRITIQUE.pdf)
 
 ### Ergonomic Report
-Multidimensional Ergonomic Analysis: Assessing Physical and Cognitive Workload at IKEA  :  [Report of ergonomic IKEA](assets/PDFs/RapportdanalyseergonomiquesurletravaildunevendeuseàIKEA.pdf)<br>
+Multidimensional Ergonomic Analysis: Assessing Physical and Cognitive Workload at IKEA  :  [Report of ergonomic IKEA](assets/PDFs/Ergoikea.pdf)<br>
 Mental Workload in N-back Tasks: A Psychophysiological Study using Heart rate variability (HRV)  :  [Report of Psychophysiological study](assets/PDFs/Analysephysiologiques.pdf)
