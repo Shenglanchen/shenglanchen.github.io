@@ -7,9 +7,10 @@ subtitle:
      alt="Picture" 
      width="200" 
      style="display: block; margin: 20px auto; float: none;">
-I am currently a Master’s student at the University of Lyon 2, conducting my M2 internship under the supervision of Jordan Navarro. My research focuses on how a driver’s perceived agency influences their brain activation patterns.
 
-I am deeply attracted by the interaction between humans and advanced technology. I believe this research is essential in our current era, as technology evolves and reshapes our daily interactions.  
+I recently completed my Master's degree at the University of Lyon 2. For my M2 research internship, supervised by Jordan Navarro, I studied how a driver's perceived agency influences their brain activation patterns.
+
+More broadly, I am interested in how people interact with and learn from machines and other people, a topic at the intersection of human-computer interaction, human-machine interaction, and cognitive science. As technology increasingly shapes how we work and learn, I believe understanding these interactions is essential to designing systems that genuinely support people.
 
 
 # key words  
@@ -18,7 +19,7 @@ I am deeply attracted by the interaction between humans and advanced technology.
 ❗️ Human-centered solution 
 
 # CV
-[CV - Shenglan CHEN (French)](assets/PDFs/CV_Shenglan_Chen.pdf) (updated Jan 2026)
+[CV - Shenglan CHEN (French)](assets/PDFs/CV_Shenglan_Chen.pdf) (updated Oct 2026)
 
 # Cover Letter
 [Cover Letter - Shenglan CHEN (French)](assets/PDFs/Lettre de motivation_Shenglan.pdf) 
