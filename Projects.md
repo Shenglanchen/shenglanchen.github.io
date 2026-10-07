@@ -7,7 +7,7 @@ subtitle:
 # Master's thesis
 As part of my Master's degree, I completed two theses at the EMC Lab (University of Lyon 2) on how people interact with automated vehicles. Both studies used functional near-infrared spectroscopy (fNIRS) to measure brain activity.
 
-➡️ [Thesis 1 : Inferring the intentions of humans and automated vehicles](assets/PDFs/MémoireR.pdf)<br>
+➡️ [Thesis 1 : Inferring the intentions of humans and automated vehicles](assets/PDFs/MemoireR.pdf)<br>
 This study compared how the brain infers the intentions of a human agent versus an automated vehicle. It tested whether the neural mechanisms of social cognition differ when the other agent is a machine.
 
 ➡️ [Thesis 2: Taking back control at different levels of automation](assets/PDFs/MmoireP.pdf)<br>
