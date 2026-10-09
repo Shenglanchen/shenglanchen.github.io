@@ -10,17 +10,13 @@ eyebrow:
   en: Cognitive science · Human factors · HCI
   fr: Sciences cognitives · Facteurs humains · IHM
 
-lede:
-  en: I study how people understand, monitor and take back control from automated systems.
-  fr: J'étudie comment les humains comprennent, supervisent et reprennent le contrôle des systèmes automatisés.
-
 bio:
   en: I hold an MSc in Cognitive Science (HCI track) from Université Lumière Lyon 2 and a BSc in scientific psychology from Université Paris Cité. Across four research internships I have run experiments with fNIRS, eye-tracking and physiological measures, most recently on take-over in automated driving at the EMC Lab with Jordan Navarro.
   fr: Je suis titulaire d'un master en sciences cognitives (parcours Interaction Homme-Machine) de l'Université Lumière Lyon 2 et d'une licence de psychologie scientifique de l'Université Paris Cité. Au fil de quatre stages de recherche, j'ai mené des expériences en fNIRS, en oculométrie et avec des mesures physiologiques, dernièrement sur la reprise en main en conduite automatisée au laboratoire EMC, sous la direction de Jordan Navarro.
 
 status:
-  en: Seeking a CIFRE PhD · 2026–2029 · Lyon / Paris
-  fr: À la recherche d'une thèse CIFRE · 2026–2029 · Lyon / Paris
+  en: Seeking a CIFRE PhD · 2026–2029
+  fr: À la recherche d'une thèse CIFRE · 2026–2029
 
 cv_label:
   en: CV (French, PDF)
@@ -43,7 +39,3 @@ interests:
 contact:
   en: Open to CIFRE PhD projects on human factors, automation and human–machine interaction.
   fr: Ouverte aux projets de thèse CIFRE en facteurs humains, automatisation et interaction humain–machine.
-
-location:
-  en: Lyon · Paris
-  fr: Lyon · Paris
