@@ -1,0 +1,13 @@
+{%- assign L = page.lang | default: "en" -%}
+{%- assign t = site.data.ui[L] -%}
+{%- assign p = site.data.profile -%}
+<footer class="foot">
+  <div class="wrap foot-row">
+    <div class="foot-links mono">
+      <a href="mailto:{{ p.email }}">{{ p.email }}</a>
+      <a href="{{ p.linkedin }}" rel="me">LinkedIn ↗</a>
+      <a href="{{ p.cv_pdf | relative_url | replace: ' ', '%20' }}">{{ p.cv_label[L] }} ↗</a>
+    </div>
+    <div class="foot-meta mono">© {{ site.time | date: "%Y" }} {{ p.name }} · {{ t.footer.updated }}</div>
+  </div>
+</footer>

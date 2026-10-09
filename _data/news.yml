@@ -1,0 +1,25 @@
+# Newest first. "date" is machine-readable; "when" is what visitors see.
+
+- date: 2026-10
+  when: { en: Oct 2026, fr: oct. 2026 }
+  text:
+    en: Looking for a CIFRE PhD on human factors, automation or HCI.
+    fr: À la recherche d'une thèse CIFRE en facteurs humains, automatisation ou IHM.
+
+- date: 2026-06-16
+  when: { en: Jun 2026, fr: juin 2026 }
+  text:
+    en: Defended both M2 research projects at the EMC Lab, Université Lumière Lyon 2.
+    fr: Soutenance de mes deux mémoires de M2 au laboratoire EMC, Université Lumière Lyon 2.
+
+- date: 2026-06
+  when: { en: Jun 2026, fr: juin 2026 }
+  text:
+    en: Attended the H.U.M.A.I.N. thematic school on autonomous mobility and human factors, Université Grenoble Alpes.
+    fr: Participation à l'école thématique H.U.M.A.I.N. sur la mobilité autonome et les facteurs humains, Université Grenoble Alpes.
+
+- date: 2026
+  when: { en: "2026", fr: "2026" }
+  text:
+    en: Completed the MSc in Cognitive Science (HCI track) at Lyon 2 with mention Bien (15.6/20).
+    fr: Obtention du master Sciences cognitives, parcours IHM, à Lyon 2 avec mention Bien (15,6/20).

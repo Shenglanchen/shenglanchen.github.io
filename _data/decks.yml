@@ -1,0 +1,19 @@
+# Slide decks, shown on the detail page of the research or project that
+# names them ("deck: <id>" in research.yml or projects.yml).
+# Images live in /assets/slides/<id>/ as 01.jpg, 02.jpg … (1920 px wide)
+# and t01.jpg, t02.jpg … (thumbnails). Make them with _tools/make_slides.py.
+# "count" must match the number of slides.
+
+- id: takeover
+  count: 18
+  meta:
+    en: Research case study
+    fr: Étude de cas · en anglais
+  pdf: /assets/slides/takeover/takeover.pdf
+
+- id: av-intention
+  count: 16
+  meta:
+    en: Research case study
+    fr: Étude de cas · en anglais
+  pdf: /assets/slides/av-intention/av-intention.pdf

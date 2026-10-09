@@ -1,0 +1,20 @@
+---
+layout: sc-shell
+lang: en
+key: "404"
+permalink: /404.html
+alt_url: /fr/
+sitemap: false
+title: Page not found
+---
+<script>
+  /* The old site's /Projects/ page now lives at /research/#projects. */
+  if (/^\/Projects(\/|$)/.test(location.pathname)) { location.replace("{{ '/research/' | relative_url }}#projects"); }
+</script>
+{%- assign t = site.data.ui.en -%}
+{%- assign tf = site.data.ui.fr -%}
+<header class="wrap page-head">
+  <h1>{{ t.notfound.title }}</h1>
+  <p class="intro">{{ t.notfound.text }} <a href="{{ '/' | relative_url }}">{{ t.notfound.back }}</a></p>
+  <p class="intro" lang="fr">{{ tf.notfound.text }} <a href="{{ '/fr/' | relative_url }}">{{ tf.notfound.back }}</a></p>
+</header>

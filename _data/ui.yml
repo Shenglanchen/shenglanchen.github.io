@@ -1,0 +1,131 @@
+# Interface text. Each key has an English (en) and French (fr) version.
+
+en:
+  locale: en_GB
+  nav:
+    research: Research & Projects
+    cv: CV
+  lang_switch_label: Version française
+  skip: Skip to content
+  site_description: Cognitive science, human factors and HCI. Research on take-over in automated driving and how people read automated vehicles, with fNIRS and eye-tracking.
+  pages:
+    research:
+      title: Research & Projects
+      intro: My master's research on driver take-over and how people read automated vehicles, followed by coursework projects in UX, ergonomics, physiology and computing.
+    cv:
+      title: Experience & methods
+      intro: Research experience, education and the methods I work with.
+  work:
+    research_title: Research
+    research_intro: Studies I ran during my master's, with fNIRS and eye-tracking. Open a study for its summary, slides and full report.
+    research_count: studies
+    projects_title: Projects
+    projects_intro: Coursework reports from my master's. Open a project for its summary and full report.
+    projects_count: reports
+    filter_label: Filter projects by field
+    all: All
+  home:
+    news: News
+    interests: Research interests
+    selected: Selected research
+    all_research: Research & projects
+    contact_title: Contact
+  item:
+    finding: Finding
+    slides: Slides
+    team: team of
+    solo: Individual
+    field: Field
+    year: Year
+    team_label: Team
+    methods: Methods
+    prev: Previous
+    next: Next
+  slides:
+    prev: Previous slide
+    next: Next slide
+    fullscreen: Full screen
+    download: Download PDF
+    slide: Slide
+    of: of
+  cv:
+    experience: Research experience
+    education: Education
+    methods: Methods & tools
+    languages: Languages
+    download: Full CV (PDF, in French)
+  contact:
+    copy: Copy
+    copied: Copied
+    selected: Selected
+  footer:
+    updated: Updated October 2026
+  notfound:
+    title: Page not found
+    text: This page does not exist or has moved.
+    back: Back to the home page
+
+fr:
+  locale: fr_FR
+  nav:
+    research: Recherche & projets
+    cv: CV
+  lang_switch_label: English version
+  skip: Aller au contenu
+  site_description: Sciences cognitives, facteurs humains et IHM. Recherche sur la reprise en main en conduite automatisée et la lecture des intentions des véhicules autonomes, en fNIRS et oculométrie.
+  pages:
+    research:
+      title: Recherche & projets
+      intro: Mes travaux de recherche de master sur la reprise en main et la lecture des véhicules autonomes, suivis de projets réalisés en cours, en UX, ergonomie, physiologie et informatique.
+    cv:
+      title: Expériences & méthodes
+      intro: Expériences de recherche, formation et méthodes que j'utilise.
+  work:
+    research_title: Recherche
+    research_intro: Les études que j'ai menées pendant mon master, en fNIRS et en oculométrie. Ouvrez une étude pour voir son résumé, les diapositives et le mémoire complet.
+    research_count: études
+    projects_title: Projets
+    projects_intro: Rapports réalisés dans le cadre des cours du master. Ouvrez un projet pour voir son résumé et le rapport complet.
+    projects_count: rapports
+    filter_label: Filtrer les projets par domaine
+    all: Tous
+  home:
+    news: Actualités
+    interests: Thèmes de recherche
+    selected: Recherche
+    all_research: Recherche & projets
+    contact_title: Contact
+  item:
+    finding: Résultat
+    slides: Diapositives
+    team: équipe de
+    solo: Individuel
+    field: Domaine
+    year: Année
+    team_label: Équipe
+    methods: Méthodes
+    prev: Précédent
+    next: Suivant
+  slides:
+    prev: Diapositive précédente
+    next: Diapositive suivante
+    fullscreen: Plein écran
+    download: Télécharger le PDF
+    slide: Diapositive
+    of: sur
+  cv:
+    experience: Expériences de recherche
+    education: Formation
+    methods: Méthodes & outils
+    languages: Langues
+    download: CV complet (PDF)
+  contact:
+    copy: Copier
+    copied: Copié
+    selected: Sélectionné
+  footer:
+    updated: Mis à jour en octobre 2026
+  notfound:
+    title: Page introuvable
+    text: Cette page n'existe pas ou a été déplacée.
+    back: Retour à l'accueil

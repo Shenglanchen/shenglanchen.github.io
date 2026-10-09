@@ -1,0 +1,17 @@
+<!doctype html>
+{%- assign L = page.lang | default: "en" -%}
+{%- assign t = site.data.ui[L] -%}
+<html lang="{{ L }}">
+<head>
+{% include sc-head.html %}
+</head>
+<body class="page-{{ page.key }}">
+<a class="skip" href="#main">{{ t.skip }}</a>
+{% include sc-nav.html %}
+<main id="main">
+{{ content }}
+</main>
+{% include sc-footer.html %}
+<script src="{{ '/assets/site/site.js' | relative_url }}" defer></script>
+</body>
+</html>

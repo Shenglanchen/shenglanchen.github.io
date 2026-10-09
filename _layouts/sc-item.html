@@ -1,0 +1,101 @@
+---
+layout: sc-shell
+---
+{%- comment -%}
+Detail page for one research study or project. The page file only sets
+"item: <id>"; everything else comes from _data/research.yml or projects.yml.
+{%- endcomment -%}
+{%- assign L = page.lang | default: "en" -%}
+{%- assign t = site.data.ui[L] -%}
+{%- if L == "fr" -%}{%- assign base = "/fr" -%}{%- else -%}{%- assign base = "" -%}{%- endif -%}
+
+{%- assign all = "" | split: "" -%}
+{%- for r in site.data.research -%}{%- assign all = all | push: r -%}{%- endfor -%}
+{%- for p in site.data.projects.items -%}{%- assign all = all | push: p -%}{%- endfor -%}
+{%- assign it = all | where: "id", page.item | first -%}
+{%- assign in_research = site.data.research | where: "id", page.item | size -%}
+{%- if in_research > 0 -%}
+  {%- assign section = "research" -%}{%- assign section_label = t.work.research_title -%}
+{%- else -%}
+  {%- assign section = "projects" -%}{%- assign section_label = t.work.projects_title -%}
+{%- endif -%}
+{%- assign d = nil -%}
+{%- if it.deck -%}{%- assign d = site.data.decks | where: "id", it.deck | first -%}{%- endif -%}
+{%- for x in all -%}{%- if x.id == page.item -%}{%- assign idx = forloop.index0 -%}{%- endif -%}{%- endfor -%}
+{%- assign last = all | size | minus: 1 -%}
+
+<article class="wrap item">
+  <nav class="crumbs mono" aria-label="{{ t.nav.research }}">
+    <a href="{{ base | append: '/research/#' | append: section | relative_url }}">← {{ section_label }}</a>
+  </nav>
+
+  <header class="item-head">
+    <div class="meta">
+      {%- if section == "research" %}
+      <span class="label">{{ it.kind[L] }}</span><span class="label">{{ it.place[L] }}</span><span class="label">{{ it.dates[L] }}</span>
+      {%- else %}
+      <span class="label">{{ it.kind[L] }}</span><span class="label">{{ it.year }}</span>
+      {%- endif %}
+    </div>
+    <h1 class="item-title">{{ it.title[L] }}</h1>
+    {%- if it.supervision %}
+    <p class="who"><b>{{ site.data.profile.name }}</b> · {{ it.supervision[L] }}</p>
+    {%- endif %}
+    <p class="item-sum">{{ it.summary[L] }}</p>
+    <p class="btns">
+      <a class="btn primary" href="{{ it.pdf | relative_url }}"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 1.5h5l3 3v10H4z"/><path d="M9 1.5v3h3"/></svg>{% if it.pdf_label %}{{ it.pdf_label[L] }}{% else %}PDF{% endif %}</a>
+    </p>
+  </header>
+
+  {%- if d %}
+  <section class="viewer" data-viewer data-base="{{ '/assets/slides/' | relative_url }}" data-deck="{{ d.id }}" data-count="{{ d.count }}" data-title="{{ it.title[L] | escape }}" data-i18n-slide="{{ t.slides.slide }}" data-i18n-of="{{ t.slides.of }}" aria-label="{{ t.item.slides }}">
+    <div class="stage" tabindex="0">
+      <img id="slide-img" src="{{ '/assets/slides/' | append: d.id | append: '/01.jpg' | relative_url }}" width="1920" height="1080" alt="{{ t.slides.slide }} 1 {{ t.slides.of }} {{ d.count }} · {{ it.title[L] | escape }}">
+    </div>
+    <div class="controls">
+      <button class="iconbtn" type="button" data-step="-1" aria-label="{{ t.slides.prev }}"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg></button>
+      <button class="iconbtn" type="button" data-step="1" aria-label="{{ t.slides.next }}"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg></button>
+      <span class="count" aria-live="polite">01 / {% if d.count < 10 %}0{% endif %}{{ d.count }}</span>
+      <span class="bar" aria-hidden="true"><i></i></span>
+      <a class="btn" href="{{ d.pdf | relative_url }}" title="{{ t.slides.download }}"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 2v8M4.5 6.5 8 10l3.5-3.5M2.5 13.5h11"/></svg><span>PDF</span></a>
+      <button class="iconbtn" type="button" data-fullscreen aria-label="{{ t.slides.fullscreen }}"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 6V2h4M10 2h4v4M14 10v4h-4M6 14H2v-4"/></svg></button>
+    </div>
+    <div class="strip" data-strip></div>
+    <p class="deck-meta label">{{ t.item.slides }} · {{ d.meta[L] }}</p>
+  </section>
+  {%- elsif it.image %}
+  <figure class="fig item-fig{% if it.fit == 'contain' %} plot{% endif %}">
+    <img src="{{ it.image | relative_url }}" alt="{{ it.alt[L] | escape }}" decoding="async">
+    {%- if it.caption %}<figcaption>{{ it.caption[L] }}</figcaption>{% endif %}
+  </figure>
+  {%- endif %}
+
+  <section class="item-facts">
+    {%- if section == "research" %}
+    <dl class="specs">
+      {%- for sp in it.specs %}
+      <div><dt>{{ sp.label[L] }}</dt><dd>{{ sp.value[L] }}</dd></div>
+      {%- endfor %}
+    </dl>
+    {%- else %}
+    <dl class="specs specs-project">
+      <div><dt>{{ t.item.field }}</dt><dd>{{ it.kind[L] }}</dd></div>
+      <div><dt>{{ t.item.year }}</dt><dd>{{ it.year }}</dd></div>
+      <div><dt>{{ t.item.team_label }}</dt><dd>{% if it.team %}{{ it.team }}{% else %}{{ t.item.solo }}{% endif %}</dd></div>
+      <div class="wide"><dt>{{ t.item.methods }}</dt><dd>{{ it.methods[L] }}</dd></div>
+    </dl>
+    {%- endif %}
+    {%- if it.finding %}
+    <p class="finding"><span class="label">{{ t.item.finding }}</span><span>{{ it.finding[L] }}</span></p>
+    {%- endif %}
+  </section>
+
+  <nav class="pager" aria-label="{{ t.item.prev }} / {{ t.item.next }}">
+    {%- if idx > 0 %}{% assign pi = idx | minus: 1 %}{% assign pv = all[pi] %}
+    <a class="pager-prev" href="{{ base | append: '/research/' | append: pv.id | append: '/' | relative_url }}"><span class="label">← {{ t.item.prev }}</span><span class="pager-title">{{ pv.title[L] }}</span></a>
+    {%- else %}<span></span>{% endif %}
+    {%- if idx < last %}{% assign ni = idx | plus: 1 %}{% assign nx = all[ni] %}
+    <a class="pager-next" href="{{ base | append: '/research/' | append: nx.id | append: '/' | relative_url }}"><span class="label">{{ t.item.next }} →</span><span class="pager-title">{{ nx.title[L] }}</span></a>
+    {%- endif %}
+  </nav>
+</article>

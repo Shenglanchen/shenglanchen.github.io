@@ -1,0 +1,45 @@
+---
+layout: sc-shell
+---
+{%- assign L = page.lang | default: "en" -%}
+{%- assign t = site.data.ui[L] -%}
+{%- assign cv = site.data.cv -%}
+<header class="wrap page-head">
+  <h1>{{ t.pages.cv.title }}</h1>
+  <p class="intro">{{ t.pages.cv.intro }}</p>
+  <p class="btns"><a class="btn primary" href="{{ site.data.profile.cv_pdf | relative_url | replace: ' ', '%20' }}"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 2v8M4.5 6.5 8 10l3.5-3.5M2.5 13.5h11"/></svg>{{ t.cv.download }}</a></p>
+</header>
+<section class="wrap cv">
+  <div class="stack">
+    <div>
+      <h2 class="col-h">{{ t.cv.experience }}</h2>
+      <ul class="tl">
+        {%- for e in cv.experience %}
+        <li><span class="when">{{ e.when[L] }}</span><div><div class="r">{{ e.role[L] }}</div><div class="o">{{ e.org[L] }}</div><p class="d">{{ e.text[L] }}</p></div></li>
+        {%- endfor %}
+      </ul>
+    </div>
+    <div>
+      <h2 class="col-h">{{ t.cv.education }}</h2>
+      <ul class="tl">
+        {%- for e in cv.education %}
+        <li><span class="when">{{ e.when[L] }}</span><div><div class="r">{{ e.role[L] }}</div><div class="o">{{ e.org[L] }}</div></div></li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="stack">
+    <div>
+      <h2 class="col-h">{{ t.cv.methods }}</h2>
+      <div class="skills">
+        {%- for g in cv.skills %}
+        <div><h3>{{ g.group[L] }}</h3><ul>{% for i in g.items[L] %}<li>{{ i }}</li>{% endfor %}</ul></div>
+        {%- endfor %}
+      </div>
+    </div>
+    <div>
+      <h2 class="col-h">{{ t.cv.languages }}</h2>
+      <ul class="plain">{% for l in cv.languages[L] %}<li>{{ l }}</li>{% endfor %}</ul>
+    </div>
+  </div>
+</section>

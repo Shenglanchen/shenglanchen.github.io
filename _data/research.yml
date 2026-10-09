@@ -1,0 +1,87 @@
+# Research studies, in display order. "deck" links to an id in decks.yml.
+
+- id: takeover
+  kind: { en: M2 thesis, fr: Mémoire de M2 }
+  place: { en: "EMC Lab, Lyon 2", fr: "Laboratoire EMC, Lyon 2" }
+  dates: { en: Jan–Jun 2026, fr: janv.–juin 2026 }
+  title:
+    en: Influence of automation level on cortical activation across the take-over cycle
+    fr: Influence du niveau d'automatisation sur l'activation corticale au cours du cycle de reprise en main
+  supervision:
+    en: supervised by Jordan Navarro
+    fr: sous la direction de Jordan Navarro
+  summary:
+    en: How does the brain disengage during automated driving and re-engage after a take-over request? I compared four levels of automation, from manual driving to highly automated driving, and tracked cortical activity before, during and after the driver resumed control.
+    fr: Comment le cerveau se désengage-t-il pendant la conduite automatisée, puis se réengage-t-il après une demande de reprise en main ? J'ai comparé quatre niveaux d'automatisation, de la conduite manuelle à la conduite hautement automatisée, et suivi l'activité corticale avant, pendant et après la reprise du contrôle.
+  specs:
+    - { label: { en: Measure, fr: Mesure }, value: { en: fNIRS · 35 ch, fr: fNIRS · 35 canaux } }
+    - { label: { en: Design, fr: Plan }, value: { en: 4 LoA × 3 phases, fr: 4 LoA × 3 phases } }
+    - { label: { en: Participants, fr: Participants }, value: { en: N = 34 (71 tested), fr: N = 34 (71 testés) } }
+    - { label: { en: Analysis, fr: Analyse }, value: { en: GLM → LMM, fr: GLM → LMM } }
+  finding:
+    en: After take-over, cognitive-control activity falls further the higher the prior automation level, while motor areas do not track automation level. Re-engagement is gradual and shaped by how deeply the driver had disengaged.
+    fr: Après la reprise, l'activité de contrôle cognitif diminue d'autant plus que le niveau d'automatisation précédent était élevé, alors que les régions motrices n'y sont pas sensibles. Le réengagement est graduel et contraint par la profondeur du désengagement.
+  image: /assets/img/research/simulator.jpg
+  fit: cover
+  alt:
+    en: Driving simulator with three screens used in the take-over study
+    fr: Simulateur de conduite à trois écrans utilisé dans l'étude de reprise en main
+  caption: { en: Driving simulator, EMC Lab, fr: Simulateur de conduite, laboratoire EMC }
+  pdf: /assets/PDFs/MmoireP.pdf
+  pdf_label: { en: Thesis PDF, fr: Mémoire PDF }
+  deck: takeover
+
+- id: av-intention
+  kind: { en: M2 research project, fr: Stage de recherche M2 }
+  place: { en: "EMC Lab, Lyon 2", fr: "Laboratoire EMC, Lyon 2" }
+  dates: { en: Sep–Dec 2025, fr: sept.–déc. 2025 }
+  title:
+    en: "Inferring the intentions of automated vehicles: shared with, or distinct from, human mentalizing?"
+    fr: "Inférer l'intention des véhicules autonomes : mécanismes partagés ou distincts de la mentalisation humaine"
+  supervision:
+    en: supervised by Jordan Navarro & Emmanuelle Reynaud
+    fr: sous la direction de Jordan Navarro & Emmanuelle Reynaud
+  summary:
+    en: As pedestrians, we read a car's intention to yield from how it moves. I tested whether inferring an automated vehicle's intention relies on the same mechanisms as theory of mind, using a speed-profile task and a classic theory-of-mind task under fNIRS.
+    fr: En tant que piétons, nous lisons l'intention d'une voiture de céder le passage dans sa façon de se déplacer. J'ai testé si inférer l'intention d'un véhicule autonome repose sur les mêmes mécanismes que la théorie de l'esprit, avec une tâche de profils de vitesse et une tâche classique de théorie de l'esprit, sous fNIRS.
+  specs:
+    - { label: { en: Measure, fr: Mesure }, value: { en: fNIRS · 5 ROIs, fr: fNIRS · 5 ROI } }
+    - { label: { en: Conditions, fr: Conditions }, value: { en: 4 speed profiles, fr: 4 profils de vitesse } }
+    - { label: { en: Participants, fr: Participants }, value: { en: N = 44, fr: N = 44 } }
+    - { label: { en: Analysis, fr: Analyse }, value: { en: GLM · d′, fr: GLM · d′ } }
+  finding:
+    en: A change in speed leads people to attribute a stronger yielding intention than a constant speed, but this ability is dissociated from theory of mind at both the behavioural and the neural level.
+    fr: Un changement de vitesse conduit à attribuer une intention de céder plus forte qu'une vitesse constante, mais cette capacité est dissociée de la théorie de l'esprit, aux niveaux comportemental et neural.
+  image: /assets/img/research/road.jpg
+  fit: cover
+  alt:
+    en: Simulated road scene with an approaching automated vehicle
+    fr: Scène de route simulée avec un véhicule autonome qui approche
+  caption: { en: Pedestrian task, simulated approach, fr: Tâche piéton, approche simulée }
+  pdf: /assets/PDFs/MemoireR.pdf
+  pdf_label: { en: Report PDF, fr: Mémoire PDF }
+  deck: av-intention
+
+- id: anxiety-food
+  kind: { en: M1 research project, fr: Mémoire de recherche M1 }
+  place: { en: "Institut des Sciences Cognitives, Lyon", fr: "Institut des Sciences Cognitives, Lyon" }
+  dates: { en: Nov 2024–May 2025, fr: nov. 2024–mai 2025 }
+  title:
+    en: "Anxiety and food decisions in young women: an eye-tracking study"
+    fr: "Anxiété et décisions alimentaires chez les jeunes femmes : une étude en oculométrie"
+  summary:
+    en: A neuroeconomics study of how social anxiety relates to food choices and willingness-to-pay, with eye-tracking to measure which product information participants chose to look at before deciding.
+    fr: Une étude de neuroéconomie sur le lien entre anxiété sociale, choix alimentaires et consentement à payer, avec l'oculométrie pour mesurer quelles informations sur les produits les participantes choisissaient de consulter avant de décider.
+  specs:
+    - { label: { en: Measure, fr: Mesure }, value: { en: Tobii eye-tracking, fr: Oculométrie Tobii } }
+    - { label: { en: Indicators, fr: Indicateurs }, value: { en: AOIs · WTP, fr: AOI · CAP } }
+    - { label: { en: Participants, fr: Participantes }, value: { en: N = 50, fr: N = 50 } }
+    - { label: { en: Analysis, fr: Analyse }, value: { en: Correlations, fr: Corrélations } }
+  image: /assets/img/research/m1-interaction.jpg
+  fit: contain
+  alt:
+    en: Interaction plot of information consultation and food choice on willingness-to-pay
+    fr: Graphique d'interaction entre consultation de l'information et choix alimentaire sur le consentement à payer
+  caption: { en: Information consultation × choice on WTP, fr: Consultation de l'information × choix sur le CAP }
+  pdf: /assets/PDFs/MemoirederechercheM1.pdf
+  pdf_label: { en: Report PDF, fr: Mémoire PDF }

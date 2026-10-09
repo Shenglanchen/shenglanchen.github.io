@@ -1,0 +1,66 @@
+---
+layout: sc-shell
+---
+{%- assign L = page.lang | default: "en" -%}
+{%- assign t = site.data.ui[L] -%}
+{%- assign p = site.data.profile -%}
+{%- if L == "fr" -%}{%- assign base = "/fr" -%}{%- else -%}{%- assign base = "" -%}{%- endif -%}
+<section class="wrap hero">
+  <div class="hero-grid">
+    <div class="hero-text">
+      <p class="label">{{ p.eyebrow[L] }}</p>
+      <h1>{{ p.name }}</h1>
+      <p class="lede">{{ p.lede[L] }}</p>
+      <p class="bio">{{ p.bio[L] }}</p>
+      <p class="status"><span class="dot" aria-hidden="true"></span>{{ p.status[L] }}</p>
+      <p class="links">
+        <a href="{{ p.cv_pdf | relative_url | replace: ' ', '%20' }}">{{ p.cv_label[L] }}</a>
+        <a href="mailto:{{ p.email }}">Email</a>
+        <a href="{{ p.linkedin }}" rel="me">LinkedIn</a>
+      </p>
+      <ul class="tags" aria-label="{{ t.home.interests }}">
+        {%- for tag in p.interests[L] %}
+        <li class="tag">{{ tag }}</li>
+        {%- endfor %}
+      </ul>
+    </div>
+    <figure class="portrait">
+      <img src="{{ p.portrait | relative_url }}" alt="{{ p.name }}" width="560" height="700">
+    </figure>
+  </div>
+</section>
+
+<section class="wrap block" aria-labelledby="news-h">
+  <div class="sec-head"><h2 id="news-h">{{ t.home.news }}</h2></div>
+  <ul class="news">
+    {%- for n in site.data.news %}
+    <li><time datetime="{{ n.date }}">{{ n.when[L] }}</time><span>{{ n.text[L] }}</span></li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section class="wrap block" aria-labelledby="sel-h">
+  <div class="sec-head"><h2 id="sel-h">{{ t.home.selected }}</h2><a class="mono" href="{{ base | append: '/research/' | relative_url }}">{{ t.home.all_research }} →</a></div>
+  <ul class="cards">
+    {%- for s in site.data.research %}
+    <li>
+      <a class="card" href="{{ base | append: '/research/' | append: s.id | append: '/' | relative_url }}">
+        <span class="fig{% if s.fit == 'contain' %} plot{% endif %}"><img src="{{ s.image | relative_url }}" alt="" loading="lazy" decoding="async"></span>
+        <span class="label">{{ s.kind[L] }} · {{ s.dates[L] }}</span>
+        <span class="card-title">{{ s.title[L] }}</span>
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section class="wrap block" aria-labelledby="contact-h">
+  <div class="sec-head"><h2 id="contact-h">{{ t.home.contact_title }}</h2><span class="label">{{ p.location[L] }}</span></div>
+  <div class="contact">
+    <p class="contact-line">{{ p.contact[L] }}</p>
+    <div class="mailrow">
+      <a class="mail" id="mail" href="mailto:{{ p.email }}">{{ p.email }}</a>
+      <button class="btn" type="button" data-copy="#mail" data-copied="{{ t.contact.copied }}" data-selected="{{ t.contact.selected }}">{{ t.contact.copy }}</button>
+    </div>
+  </div>
+</section>

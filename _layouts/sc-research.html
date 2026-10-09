@@ -1,0 +1,60 @@
+---
+layout: sc-shell
+---
+{%- assign L = page.lang | default: "en" -%}
+{%- assign t = site.data.ui[L] -%}
+{%- if L == "fr" -%}{%- assign base = "/fr" -%}{%- else -%}{%- assign base = "" -%}{%- endif -%}
+<h1 class="sr-only">{{ t.pages.research.title }}</h1>
+
+<section class="wrap work" id="research" aria-labelledby="research-h">
+  <div class="work-head">
+    <h2 id="research-h" class="work-title">{{ t.work.research_title }}</h2>
+    <span class="label">{{ site.data.research | size }} {{ t.work.research_count }}</span>
+  </div>
+  <p class="work-intro">{{ t.work.research_intro }}</p>
+  <ul class="tiles">
+    {%- for s in site.data.research %}
+    {%- assign d = nil -%}
+    {%- if s.deck -%}{%- assign d = site.data.decks | where: "id", s.deck | first -%}{%- endif %}
+    <li>
+      <a class="tile" href="{{ base | append: '/research/' | append: s.id | append: '/' | relative_url }}">
+        <span class="fig{% if s.fit == 'contain' %} plot{% endif %}"><img src="{{ s.image | relative_url }}" alt="" decoding="async"{% unless forloop.first %} loading="lazy"{% endunless %}></span>
+        <span class="label">{{ s.kind[L] }} · {{ s.dates[L] }}</span>
+        <span class="tile-title">{{ s.title[L] }}</span>
+        <span class="badges"><span class="badge">PDF</span>{% if d %}<span class="badge badge-slides">{{ t.item.slides }} · {{ d.count }}</span>{% endif %}</span>
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section class="wrap work" id="projects" aria-labelledby="projects-h">
+  <div class="work-head">
+    <h2 id="projects-h" class="work-title">{{ t.work.projects_title }}</h2>
+    <span class="label">{{ site.data.projects.items | size }} {{ t.work.projects_count }}</span>
+  </div>
+  <p class="work-intro">{{ t.work.projects_intro }}</p>
+  <div class="filters" role="group" aria-label="{{ t.work.filter_label }}">
+    <button class="chipbtn" type="button" data-filter="all" aria-pressed="true">{{ t.work.all }}</button>
+    {%- for f in site.data.projects.filters %}
+    <button class="chipbtn" type="button" data-filter="{{ f.id }}" aria-pressed="false">{{ f.label[L] }}</button>
+    {%- endfor %}
+  </div>
+  <ul class="tiles tiles-text">
+    {%- for p in site.data.projects.items %}
+    {%- assign d = nil -%}
+    {%- if p.deck -%}{%- assign d = site.data.decks | where: "id", p.deck | first -%}{%- endif %}
+    <li data-field="{{ p.field }}">
+      <a class="tile tile-text" href="{{ base | append: '/research/' | append: p.id | append: '/' | relative_url }}">
+        {%- if d %}
+        <span class="fig slide-cover"><img src="{{ '/assets/slides/' | append: d.id | append: '/t01.jpg' | relative_url }}" alt="" loading="lazy" decoding="async"></span>
+        {%- endif %}
+        <span class="label">{{ p.kind[L] }} · {{ p.year }}</span>
+        <span class="tile-title">{{ p.title[L] }}</span>
+        <span class="tile-methods">{{ p.methods[L] }}</span>
+        <span class="badges"><span class="badge">PDF</span>{% if d %}<span class="badge badge-slides">{{ t.item.slides }} · {{ d.count }}</span>{% endif %}{% if p.team %}<span class="badge badge-quiet">{{ t.item.team }} {{ p.team }}</span>{% endif %}</span>
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>

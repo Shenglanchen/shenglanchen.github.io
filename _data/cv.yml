@@ -1,0 +1,63 @@
+# CV page content, newest first.
+
+experience:
+  - when: { en: Jan–May 2026, fr: janv.–mai 2026 }
+    role: { en: Research intern (M2), fr: Stage de recherche (M2) }
+    org: { en: "EMC Lab, Université Lumière Lyon 2", fr: "Laboratoire EMC, Université Lumière Lyon 2" }
+    text:
+      en: Ran the take-over study end to end (driving simulator + fNIRS) with a counterbalanced design, an operational protocol, 71 participants and analysis in Python and R.
+      fr: Étude sur la reprise en main (simulateur + fNIRS) pilotée de bout en bout, avec plan contrebalancé, protocole opérationnel, 71 participants et analyses sous Python et R.
+  - when: { en: Sep–Dec 2025, fr: sept.–déc. 2025 }
+    role: { en: Research assistant (M2), fr: Assistante de recherche (M2) }
+    org: { en: "EMC Lab, Université Lumière Lyon 2", fr: "Laboratoire EMC, Université Lumière Lyon 2" }
+    text:
+      en: Pedestrian perception of automated-vehicle intentions, fNIRS.
+      fr: Perception des intentions du véhicule autonome par le piéton, fNIRS.
+  - when: { en: Nov 2024–May 2025, fr: nov. 2024–mai 2025 }
+    role: { en: Research assistant (M1), fr: Assistante de recherche (M1) }
+    org: { en: "Institut des Sciences Cognitives, Lyon", fr: "Institut des Sciences Cognitives, Lyon" }
+    text:
+      en: "Eye-tracking with 50 participants: calibration, AOIs, indicator extraction and data cleaning."
+      fr: "Oculométrie auprès de 50 participantes : calibration, définition des AOI, extraction des indicateurs et nettoyage des données."
+  - when: { en: Jan–May 2024, fr: janv.–mai 2024 }
+    role: { en: Research intern (L3), fr: Stage de recherche (L3) }
+    org: { en: Institut Supérieur Maria Montessori, fr: Institut Supérieur Maria Montessori }
+    text:
+      en: Creativity in primary-school children across education systems.
+      fr: Variations de la créativité chez les enfants selon le système éducatif.
+
+education:
+  - when: { en: 2024–2026, fr: 2024–2026 }
+    role: { en: "MSc Cognitive Science, HCI track", fr: "Master Sciences cognitives, parcours IHM" }
+    org: { en: "Université Lumière Lyon 2 · mention Bien (15.6)", fr: "Université Lumière Lyon 2 · mention Bien (15,6)" }
+  - when: { en: Jun 2026, fr: juin 2026 }
+    role: { en: H.U.M.A.I.N. thematic school, fr: École thématique H.U.M.A.I.N. }
+    org: { en: "Autonomous mobility & human factors · Univ. Grenoble Alpes", fr: "Mobilité autonome & facteurs humains · Univ. Grenoble Alpes" }
+  - when: { en: 2021–2024, fr: 2021–2024 }
+    role: { en: BSc Scientific Psychology, fr: Licence de psychologie scientifique }
+    org: { en: "Université Paris Cité · mention Assez Bien (13.5)", fr: "Université Paris Cité · mention Assez Bien (13,5)" }
+  - when: { en: 2020–2021, fr: 2020–2021 }
+    role: { en: University diploma in French for specific purposes, fr: DU Français et langue de spécialité }
+    org: { en: "Université Paris Descartes · mention Très Bien (16)", fr: "Université Paris Descartes · mention Très Bien (16)" }
+
+skills:
+  - group: { en: Physiological & behavioural, fr: Mesures physiologiques & comportementales }
+    items:
+      en: [fNIRS · MNE-NIRS · GLM, Eye-tracking · Tobii · AOIs, ECG / HRV, NASA-TLX]
+      fr: [fNIRS · MNE-NIRS · GLM, Oculométrie · Tobii · AOI, ECG / VFC, NASA-TLX]
+  - group: { en: Data analysis, fr: Analyse de données }
+    items:
+      en: [Linear mixed models, GLM · ANOVA · trend analysis, R · Python · JASP, scikit-learn]
+      fr: [Modèles linéaires mixtes, GLM · ANOVA · analyses de tendance, R · Python · JASP, scikit-learn]
+  - group: { en: Running studies, fr: Conduite d'études }
+    items:
+      en: [Protocol writing, Participant recruitment, Data quality control]
+      fr: [Rédaction de protocoles, Recrutement des participants, Contrôle qualité des données]
+  - group: { en: Ergonomics & UX, fr: Ergonomie & UX }
+    items:
+      en: [Activity analysis in the field, Expert evaluation, Interviews · personas, Figma]
+      fr: [Analyse de l'activité en situation réelle, Évaluation experte, Entretiens · personas, Figma]
+
+languages:
+  en: ["Mandarin — native", "French — C1 (DALF, 2023)", "English — C1"]
+  fr: ["Chinois (mandarin) — langue maternelle", "Français — C1 (DALF, 2023)", "Anglais — C1"]

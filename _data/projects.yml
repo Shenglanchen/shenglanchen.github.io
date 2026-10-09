@@ -1,0 +1,138 @@
+# Coursework projects, shown under PROJECTS on the Research & Projects page.
+# Each item also has a detail page: research/<id>.html (English) and
+# fr/research/<id>.html (French). Add "deck: <id>" to show a slide deck
+# from decks.yml on the detail page. "field" must match a filter id below.
+
+filters:
+  - { id: ux, label: { en: UX & HCI, fr: UX & IHM } }
+  - { id: ergo, label: { en: Ergonomics, fr: Ergonomie } }
+  - { id: phys, label: { en: Physiology, fr: Physiologie } }
+  - { id: comp, label: { en: Computing, fr: Informatique } }
+  - { id: rev, label: { en: Reviews, fr: Revues } }
+
+items:
+  - id: residence-permit-ux
+    field: ux
+    kind: { en: UX research, fr: Recherche UX }
+    year: 2025–26
+    team: 3
+    title:
+      en: Redesigning the residence-permit renewal journey
+      fr: Refonte du parcours de renouvellement du titre de séjour
+    summary:
+      en: Renewing a French residence permit is now done online, yet the journey is still hard to follow. Steps are fragmented and applicants cannot see where their file stands. We interviewed users, built personas and journey maps, and proposed Figma wireframes that make each step clearer, open more contact channels and show progress.
+      fr: Le renouvellement du titre de séjour est dématérialisé, mais le parcours reste difficile à suivre. Les étapes sont fragmentées et les usagers ne voient pas où en est leur dossier. Nous avons mené des entretiens, construit des personas et des parcours utilisateurs, puis proposé des wireframes Figma qui clarifient chaque étape, diversifient les canaux de contact et rendent l'avancement visible.
+    methods:
+      en: 9 semi-structured interviews · personas · user journeys · Figma wireframes
+      fr: 9 entretiens semi-directifs · personas · parcours utilisateur · wireframes Figma
+    pdf: /assets/PDFs/DossierUX.pdf
+
+  - id: rehab-interface
+    field: ux
+    kind: { en: HCI design & evaluation, fr: Conception & évaluation IHM }
+    year: 2024–25
+    team: 3
+    title:
+      en: A cognitive-rehabilitation app for people with Alzheimer's disease
+      fr: Une application de réhabilitation cognitive pour la maladie d'Alzheimer
+    summary:
+      en: A mobile app that trains name–face association, event planning and mental arithmetic for people with Alzheimer's disease. We designed the interface around cognitive, perceptual, emotional and social factors, prototyped it in Figma, then evaluated it with Bastien & Scapin's criteria and a cognitive walkthrough to produce prioritised recommendations.
+      fr: Une application mobile qui entraîne l'association prénom–visage, la planification d'un événement et le calcul mental chez les personnes atteintes de la maladie d'Alzheimer. Nous avons conçu l'interface en tenant compte des facteurs cognitifs, perceptifs, émotionnels et sociaux, réalisé un prototype Figma, puis évalué l'interface avec la grille de Bastien et Scapin et une inspection cognitive pour formuler des recommandations priorisées.
+    methods:
+      en: Figma prototype · Bastien & Scapin criteria · cognitive walkthrough · 9 screens
+      fr: Prototype Figma · critères de Bastien & Scapin · inspection cognitive · 9 écrans
+    pdf: /assets/PDFs/IHMAPPrehabilitationcognitive.pdf
+
+  - id: ikea-ergonomics
+    field: ergo
+    kind: { en: Ergonomics, fr: Ergonomie }
+    year: 2024–25
+    team: 6
+    title:
+      en: Physical and cognitive workload of a sales associate at IKEA
+      fr: Charge physique et cognitive d'une vendeuse chez IKEA
+    summary:
+      en: An analysis of the work of a multi-skilled sales associate at IKEA. Combining on-site observation, interviews, NASA-TLX and a wearable sensor, we compared the prescribed task with the real activity, identified the dysfunctions behind physical and mental load, and proposed recommendations.
+      fr: Analyse du travail d'une vendeuse polyvalente chez IKEA. En croisant observations sur site, entretiens, NASA-TLX et capteur porté, nous avons comparé la tâche prescrite à l'activité réelle, identifié les dysfonctionnements à l'origine de la charge physique et mentale, et formulé des recommandations.
+    methods:
+      en: On-site observation · interviews · NASA-TLX · wearable sensor
+      fr: Observations sur site · entretiens · NASA-TLX · capteur porté
+    pdf: /assets/PDFs/Ergoikea.pdf
+
+  - id: nback-hrv
+    field: phys
+    kind: { en: Psychophysiology, fr: Psychophysiologie }
+    year: 2024–25
+    team: 6
+    title:
+      en: Mental workload in N-back tasks measured with heart-rate variability
+      fr: Charge mentale en tâche N-back mesurée par la variabilité cardiaque
+    summary:
+      en: How does working-memory load show up in the heart? Participants performed auditory 1-back and 2-back tasks while we recorded their ECG at rest and during the tasks, then compared heart-rate variability indices and errors. The N-back tasks produced a marked physiological activation, with individual differences in stress regulation.
+      fr: Comment la charge en mémoire de travail se traduit-elle dans l'activité cardiaque ? Les participants réalisaient des tâches auditives 1-back et 2-back pendant l'enregistrement de leur ECG, au repos et en tâche. Nous avons ensuite comparé les indices de variabilité cardiaque et les erreurs. Les tâches N-back entraînent une activation physiologique marquée, avec des différences individuelles de régulation du stress.
+    methods:
+      en: ECG · LF/HF · RMSSD · pNN50
+      fr: ECG · LF/HF · RMSSD · pNN50
+    pdf: /assets/PDFs/Analysephysiologiques.pdf
+
+  - id: maze-robotics
+    field: comp
+    kind: { en: Robotics, fr: Robotique }
+    year: 2025–26
+    team: 3
+    title:
+      en: "Autonomous maze navigation: reactive vs planned"
+      fr: "Résolution d'un labyrinthe : navigation réactive vs planifiée"
+    summary:
+      en: Two ways for a mobile robot to solve a maze in simulation. The first is a reactive right-hand wall-follower driven only by LiDAR. The second plans a path with A* on an occupancy grid and is run by a state machine that also captures a target ball. Both navigate efficiently; the first is more stable, the second more versatile.
+      fr: Deux stratégies pour qu'un robot mobile résolve un labyrinthe en simulation. La première est un suivi de mur réactif (règle de la main droite) basé uniquement sur le LiDAR. La seconde planifie un trajet par A* sur une grille d'occupation, pilotée par une machine à états qui gère aussi la capture d'une balle. Les deux naviguent efficacement ; la première est plus stable, la seconde plus polyvalente.
+    methods:
+      en: LiDAR wall-following · A* on an occupancy grid · state machine · simulation
+      fr: Suivi de mur au LiDAR · A* sur grille d'occupation · machine à états · simulation
+    pdf: /assets/PDFs/Rapport_IHM_Robotique.pdf
+
+  - id: ai-text-detection
+    field: comp
+    kind: { en: Machine learning, fr: Apprentissage automatique }
+    year: 2024–25
+    title:
+      en: Detecting AI-generated vs human-written text
+      fr: Identification des textes humains et générés par l'IA
+    summary:
+      en: Can we tell abstracts written by GPT-3 from human ones? On 28,662 abstracts of COVID-19 papers, half of them AI-generated, I compared stylometric features (lexical, syntactic, readability) and trained classifiers. A linear SVC reached an F1-score of 0.99, ahead of logistic regression, an LSTM and a random forest.
+      fr: Peut-on distinguer des résumés écrits par GPT-3 de résumés humains ? Sur 28 662 résumés d'articles sur la COVID-19, dont la moitié générés par IA, j'ai comparé des caractéristiques stylométriques (lexicales, syntaxiques, lisibilité) et entraîné des classifieurs. Un SVC linéaire atteint un F1-score de 0,99, devant la régression logistique, un LSTM et une forêt aléatoire.
+    methods:
+      en: Stylometry · linear SVC · logistic regression · LSTM · random forest
+      fr: Stylométrie · SVC linéaire · régression logistique · LSTM · forêt aléatoire
+    pdf: /assets/PDFs/IdentificationdestexteshumainsetgeneresparlIA.pdf
+
+  - id: motor-learning-ai
+    field: rev
+    kind: { en: Literature review, fr: Revue de littérature }
+    year: 2025–26
+    title:
+      en: Motor learning in the age of AI
+      fr: L'apprentissage moteur à l'ère de l'IA
+    summary:
+      en: AI systems can now track human movement and give personalised feedback in sport, rehabilitation and industrial training. This review asks whether people really improve their motor skills with such support, and whether the gains transfer to real-world performance. Current evidence shows real benefits, but transfer stays tightly bound to the training context.
+      fr: Les systèmes d'IA savent désormais suivre le mouvement humain et donner un retour personnalisé, en sport, en rééducation ou en formation industrielle. Cette revue examine si l'on améliore vraiment ses habiletés motrices avec ce soutien, et si ces gains se transfèrent en situation réelle. Les données actuelles montrent des bénéfices réels, mais un transfert étroitement lié au contexte d'entraînement.
+    methods:
+      en: Review of AI-based motion tracking and feedback research (in English)
+      fr: Revue des travaux sur le suivi du mouvement et le feedback par IA (en anglais)
+    pdf: /assets/PDFs/MotorLearningintheAgeofAI.pdf
+
+  - id: sapir-whorf
+    field: rev
+    kind: { en: Critical review, fr: Résumé critique }
+    year: 2024–25
+    team: 3
+    title:
+      en: "The Sapir–Whorf hypothesis: language and perception"
+      fr: "L'hypothèse de Sapir–Whorf : langage et perception"
+    summary:
+      en: A critical summary of three articles on the Sapir–Whorf hypothesis, including Cibelli and colleagues' probabilistic model of colour memory. Together they suggest that perception rests on a universal basis, while the categories of each language still shape how we remember and classify what we see.
+      fr: Résumé critique de trois articles sur l'hypothèse de Sapir–Whorf, dont le modèle d'inférence probabiliste de Cibelli et ses collègues sur la mémoire des couleurs. Ensemble, ils suggèrent que la perception repose sur une base universelle, tandis que les catégories propres à chaque langue influencent la façon dont nous mémorisons et classons ce que nous voyons.
+    methods:
+      en: Critical analysis of linguistic relativity · colour perception
+      fr: Analyse critique de la relativité linguistique · perception des couleurs
+    pdf: /assets/PDFs/LinguistiqueReSUMeCRITIQUE.pdf

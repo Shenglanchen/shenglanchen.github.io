@@ -1,0 +1,30 @@
+{%- assign L = page.lang | default: "en" -%}
+{%- assign t = site.data.ui[L] -%}
+{%- if L == "fr" -%}
+  {%- assign base = "/fr" -%}
+  {%- assign other = page.url | remove_first: "/fr" -%}
+{%- else -%}
+  {%- assign base = "" -%}
+  {%- assign other = page.url | prepend: "/fr" -%}
+{%- endif -%}
+{%- if page.alt_url -%}{%- assign other = page.alt_url -%}{%- endif -%}
+{%- assign navkeys = "research,cv" | split: "," -%}
+<header class="nav">
+  <div class="wrap nav-row">
+    <a class="brand" href="{{ base | append: '/' | relative_url }}"{% if page.key == "home" %} aria-current="page"{% endif %}><i aria-hidden="true"></i><span>shenglan chen</span></a>
+    <nav class="nav-links" aria-label="{{ t.nav.research }}, {{ t.nav.cv }}">
+      <ul>
+        {%- for k in navkeys %}
+        <li><a href="{{ base | append: '/' | append: k | append: '/' | relative_url }}"{% if page.key == k %}{% if page.item %} aria-current="true"{% else %} aria-current="page"{% endif %}{% endif %}>{{ t.nav[k] }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+    <div class="lang">
+      {%- if L == "fr" %}
+      <a href="{{ other | relative_url }}" hreflang="en" lang="en" title="{{ t.lang_switch_label }}">EN</a><span aria-hidden="true">/</span><span class="on" aria-current="true">FR</span>
+      {%- else %}
+      <span class="on" aria-current="true">EN</span><span aria-hidden="true">/</span><a href="{{ other | relative_url }}" hreflang="fr" lang="fr" title="{{ t.lang_switch_label }}">FR</a>
+      {%- endif %}
+    </div>
+  </div>
+</header>
